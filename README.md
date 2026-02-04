@@ -31,17 +31,3 @@ To synthesize speech from text:
 python synthesize.py --text "Hello, world!" --checkpoint checkpoints/final_model.pt --output hello.wav
 ```
 
-Key Features of this Implementation:
-Complete Tacotron 2 Architecture: Includes encoder, decoder with attention, and postnet
-
-WaveGlow Vocoder: High-quality neural vocoder for audio synthesis
-
-Modular Design: Easy to modify and extend
-
-Training Pipeline: Complete with data loading, training loops, and validation
-
-Inference System: Ready-to-use synthesis pipeline
-
-Configuration Management: Easy hyperparameter tuning
-
-Visualization Tools: For monitoring training and results
